@@ -1,6 +1,6 @@
 # Steam StyleGAN2-ADA
 
-The goal of this [Google Colab][colab-website] notebook is to capture the distribution of Steam banners and sample with a StyleGAN2-ADA.
+The goal of this [Colab][colab-website] notebook is to capture the distribution of Steam banners and sample with a StyleGAN2-ADA.
 
 ## Usage
 
