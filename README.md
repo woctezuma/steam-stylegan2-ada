@@ -10,6 +10,10 @@ The goal of this [Colab][colab-website] notebook is to capture the distribution 
 
 ## References
 
+-   DCGAN:
+    -   [Radford, Alec, et al. *Unsupervised representation learning with deep convolutional generative adversarial networks*. arXiv 2015.][dcgan-paper]
+    -   [Official implementation][dcgan-official-repository]
+    -   [Application to Steam banners][dcgan-applied-to-steam-banners]
 -   StyleGAN:
     -   [Karras, Tero, et al. *A Style-Based Generator Architecture for Generative Adversarial Networks*. CVPR 2019.][stylegan1-paper]
     -   [Official implementation][stylegan1-official-repository]
@@ -31,14 +35,17 @@ The goal of this [Colab][colab-website] notebook is to capture the distribution 
 
 [data-repository]: <https://github.com/woctezuma/download-steam-banners-data>
 
+[dcgan-paper]: <https://arxiv.org/abs/1511.06434>
 [stylegan1-paper]: <https://arxiv.org/abs/1812.04948>
 [stylegan2-paper]: <https://arxiv.org/abs/1912.04958>
 [stylegan2-ada-paper]: <https://arxiv.org/abs/2006.06676>
 
+[dcgan-official-repository]: <https://github.com/Newmu/dcgan_code>
 [stylegan1-official-repository]: <https://github.com/NVlabs/stylegan>
 [stylegan2-official-repository]: <https://github.com/NVlabs/stylegan2>
 [stylegan2-ada-official-repository]: <https://github.com/NVlabs/stylegan2-ada>
 
+[dcgan-applied-to-steam-banners]: <https://github.com/woctezuma/google-colab>
 [stylegan1-applied-to-steam-banners]: <https://github.com/woctezuma/steam-stylegan>
 [stylegan2-applied-to-steam-banners]: <https://github.com/woctezuma/steam-stylegan2>
 [stylegan2-ada-applied-to-steam-banners]: <https://github.com/woctezuma/steam-stylegan2-ada>
