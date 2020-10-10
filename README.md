@@ -11,7 +11,7 @@ The goal of this [Colab][colab-website] notebook is to capture the distribution 
 ## References
 
 -   DCGAN:
-    -   [Radford, Alec, et al. *Unsupervised Representation learning with Deep Convolutional GAN*. arXiv 2015.][dcgan-paper]
+    -   [Radford, Alec, et al. *Unsupervised Representation learning with Deep Convolutional GAN*. ICLR 2016.][dcgan-paper]
     -   [Official implementation][dcgan-official-repository]
     -   [Application to Steam banners][dcgan-applied-to-steam-banners]
 -   StyleGAN:
