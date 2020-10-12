@@ -10,7 +10,7 @@ The goal of this [Colab][colab-website] notebook is to capture the distribution 
 
 ## Data
 
-The dataset consists of 14,176 Steam banners with RGB channels and resized from 300x450 to 256x256 resolution.
+The dataset consists of 14k Steam banners with RGB channels and resized from 300x450 to 256x256 resolution.
 
 Images were downloaded with [`download_steam_banners.ipynb`][download_steam_banners].
 [![Open In Colab][colab-badge]][download_steam_banners]
