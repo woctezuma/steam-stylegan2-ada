@@ -7,6 +7,7 @@ The goal of this [Colab][colab-website] notebook is to capture the distribution 
 -   Acquire the data, e.g. as a snapshot called `256x256.zip` in [my data repository][data-repository],
 -   Run [`StyleGAN2-ADA_training.ipynb`][colab-notebook] to train a StyleGAN2-ADA model from scratch.
 [![Open In Colab][colab-badge]][colab-notebook]
+-   To automatically resume training from the latest checkpoint, you will have to use [my fork][stylegan2-ada-fork] of StyleGAN2-ADA.
 
 ## Data
 
@@ -47,6 +48,7 @@ Images were then filtered (duplicates, outliers, etc.) with [`remove_duplicates.
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
 
 [data-repository]: <https://github.com/woctezuma/download-steam-banners-data>
+[stylegan2-ada-fork]: <https://github.com/woctezuma/stylegan2-ada/tree/google-colab>
 
 [dcgan-paper]: <https://arxiv.org/abs/1511.06434>
 [stylegan1-paper]: <https://arxiv.org/abs/1812.04948>
