@@ -8,6 +8,16 @@ The goal of this [Colab][colab-website] notebook is to capture the distribution 
 -   Run [`StyleGAN2-ADA_training.ipynb`][colab-notebook] to train a StyleGAN2-ADA model from scratch.
 [![Open In Colab][colab-badge]][colab-notebook]
 
+## Data
+
+The dataset consists of 14,176 Steam banners (JPG) with RGB channels and resized from 300x450 to 256x256 resolution.
+
+Images were downloaded with [`download_steam_banners.ipynb`][download_steam_banners].
+[![Open In Colab][colab-badge]][download_steam_banners]
+
+Images were then filtered (duplicates, outliers, etc.) with [`remove_duplicates.ipynb`][filter_steam_banners].
+[![Open In Colab][colab-badge]][filter_steam_banners]
+
 ## References
 
 -   DCGAN:
@@ -28,6 +38,9 @@ The goal of this [Colab][colab-website] notebook is to capture the distribution 
     -   [Application to Steam banners][stylegan2-ada-applied-to-steam-banners]
 
 <!-- Definitions -->
+
+[download_steam_banners]: <https://colab.research.google.com/github/woctezuma/google-colab/blob/master/download_steam_banners.ipynb>
+[filter_steam_banners]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2-ada/blob/main/remove_duplicates.ipynb>
 
 [colab-website]: <https://colab.research.google.com>
 [colab-notebook]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2-ada/blob/main/StyleGAN2-ADA_training.ipynb>
