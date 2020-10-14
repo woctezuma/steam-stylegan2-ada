@@ -34,7 +34,7 @@ Images were then filtered (duplicates, outliers, etc.) with [`remove_duplicates.
     -   [Official implementation][stylegan2-official-repository]
     -   [Application to Steam banners][stylegan2-applied-to-steam-banners]
 -   StyleGAN2-ADA:
-    -   [Karras, Tero, et al. *Training generative adversarial networks with limited data*. arXiv 2020.][stylegan2-ada-paper]
+    -   [Karras, Tero, et al. *Training generative adversarial networks with limited data*. NeurIPS 2020.][stylegan2-ada-paper]
     -   [Official implementation][stylegan2-ada-official-repository]
     -   [Application to Steam banners][stylegan2-ada-applied-to-steam-banners]
 
