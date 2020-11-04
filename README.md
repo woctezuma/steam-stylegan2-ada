@@ -5,10 +5,10 @@ The goal of this [Colab][colab-website] notebook is to capture the distribution 
 ## Usage
 
 -   Acquire the data, e.g. as a snapshot called `256x256.zip` in [my data repository][data-repository],
--   Run [`StyleGAN2-ADA_training.ipynb`][colab-notebook] to train a StyleGAN2-ADA model from scratch.
-[![Open In Colab][colab-badge]][colab-notebook]
--   Run [`StyleGAN2-ADA_image_sampling.ipynb`][StyleGAN2-ADA_image_sampling] to generate images with a trained StyleGAN2-ADA model,
-[![Open In Colab][colab-badge]][StyleGAN2-ADA_image_sampling]
+-   Run [`StyleGAN2_ADA_training.ipynb`][colab-notebook-training] to train a StyleGAN2-ADA model from scratch.
+[![Open In Colab][colab-badge]][colab-notebook-training]
+-   Run [`StyleGAN2_ADA_image_sampling.ipynb`][colab-notebook-sampling] to generate images with a trained StyleGAN2-ADA model,
+[![Open In Colab][colab-badge]][colab-notebook-sampling]
 -   To automatically resume training from the latest checkpoint, you will have to use [my fork][stylegan2-ada-fork] of StyleGAN2-ADA.
 
 ## Data
@@ -46,8 +46,8 @@ Images were then filtered (duplicates, outliers, etc.) with [`remove_duplicates.
 [filter_steam_banners]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2-ada/blob/main/remove_duplicates.ipynb>
 
 [colab-website]: <https://colab.research.google.com>
-[colab-notebook]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2-ada/blob/main/StyleGAN2-ADA_training.ipynb>
-[StyleGAN2-ADA_image_sampling]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2-ada/blob/master/StyleGAN2-ADA_image_sampling.ipynb>
+[colab-notebook-training]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2-ada/blob/main/StyleGAN2_ADA_training.ipynb>
+[colab-notebook-sampling]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2-ada/blob/master/StyleGAN2_ADA_image_sampling.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
 
 [data-repository]: <https://github.com/woctezuma/download-steam-banners-data>
