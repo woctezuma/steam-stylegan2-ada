@@ -47,7 +47,7 @@ Images were then filtered (duplicates, outliers, etc.) with [`remove_duplicates.
 
 [colab-website]: <https://colab.research.google.com>
 [colab-notebook-training]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2-ada/blob/main/StyleGAN2_ADA_training.ipynb>
-[colab-notebook-sampling]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2-ada/blob/master/StyleGAN2_ADA_image_sampling.ipynb>
+[colab-notebook-sampling]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2-ada/blob/main/StyleGAN2_ADA_image_sampling.ipynb>
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
 
 [data-repository]: <https://github.com/woctezuma/download-steam-banners-data>
