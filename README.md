@@ -37,7 +37,7 @@ Images were then filtered (duplicates, outliers, etc.) with [`remove_duplicates.
     -   [Application to Steam banners][stylegan2-applied-to-steam-banners]
 -   StyleGAN2-ADA:
     -   [Karras, Tero, et al. *Training generative adversarial networks with limited data*. NeurIPS 2020.][stylegan2-ada-paper]
-    -   [Official implementation][stylegan2-ada-official-repository]
+    -   Official implementations: [TensorFlow][stylegan2-ada-official-repository] and [PyTorch][stylegan2-ada-pytorch-repository]
     -   [Application to Steam banners][stylegan2-ada-applied-to-steam-banners]
 
 <!-- Definitions -->
@@ -62,6 +62,7 @@ Images were then filtered (duplicates, outliers, etc.) with [`remove_duplicates.
 [stylegan1-official-repository]: <https://github.com/NVlabs/stylegan>
 [stylegan2-official-repository]: <https://github.com/NVlabs/stylegan2>
 [stylegan2-ada-official-repository]: <https://github.com/NVlabs/stylegan2-ada>
+[stylegan2-ada-pytorch-repository]: <https://github.com/NVlabs/stylegan2-ada-pytorch>
 
 [dcgan-applied-to-steam-banners]: <https://github.com/woctezuma/google-colab>
 [stylegan1-applied-to-steam-banners]: <https://github.com/woctezuma/steam-stylegan>
